@@ -1,29 +1,16 @@
-# ☠️ Death Note Rules
+# React + Vite
 
-A dark, mysterious website inspired by the anime *Death Note*. Explore the notebook's rules through an immersive interface featuring gothic typography, dark themes, and anime-inspired visuals.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
-- 🖤 Dark anime-inspired UI
-- 📖 Death Note rules and explanations
-- 🌙 Mysterious, cinematic design
-- 📱 Responsive layout for mobile and desktop
-- ⚡ Smooth animations and interactive elements
+Currently, two official plugins are available:
 
-## 🛠️ Technologies
-- React.js
-- HTML5
-- CSS3
-- JavaScript
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🚀 Getting Started
-1. Clone this repository.
-2. Install dependencies using `npm install`.
-3. Start the development server using `npm run dev`.
+## React Compiler
 
-## ⚠️ Disclaimer
-This is a fan-made, educational project inspired by the *Death Note* fictional universe. It is not affiliated with or endorsed by the original creators or rights holders.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 👨‍💻 Author
-Sree Ram R.
+## Expanding the ESLint configuration
 
-⭐ Star the repository if you enjoy the project!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
